@@ -1,0 +1,96 @@
+*{
+    box-shadow: unset !important;
+}
+
+body{
+    background-color: burlywood;
+}
+
+nav{
+    background-color: blueviolet !important;
+}
+.logo{
+    color: white;
+    font-weight: bolder;
+}
+.logo span{
+    color: lime;
+}
+
+.my-nav li a{
+    color: white !important;
+}
+
+.my-nav li a:hover{
+    color: yellow !important;
+}
+
+.my-submenu{
+    background-color: blueviolet !important;
+    border: none;
+}
+
+.my-submenu li a:hover{
+    background-color: unset;
+}
+
+.my-btn{
+    background-color: darkblue;
+    border: none;
+    color: yellow;
+}
+
+.my-txt{
+    background-color: black;
+}
+
+.my-txt:focus{
+    box-shadow: unset;
+}
+
+.card, .list-group-item{
+    background-color: blueviolet;
+    color: white;
+}
+
+.my-card-container{
+    margin: 50px auto;
+}
+
+.card-title{
+    text-align: center;
+    color: yellow;
+}
+
+.card{
+    transition: 0.5s transform;
+    margin: 10px auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color: yellow;
+}
+
+.accordion-button:not(.collapsed) {
+    color: yellow;
+    background-color: blueviolet;
+}
+
+.accordion{
+    background-color: skyblue;
+    color: black;
+}
+
+.accordion button{
+    color: white;
+    background-color: rgb(158, 95, 216);
+}
